@@ -1,0 +1,20 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
