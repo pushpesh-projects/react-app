@@ -1,3 +1,4 @@
+import "../css/pets.css";
 const pets = [
   {
     name: "Dolly",
@@ -31,7 +32,7 @@ export default function Pets() {
             <p>Skills</p>
             <ul>
               {pet.skills.map((skill) => (
-                <li>{skill}</li>
+                <li key={skill}>{skill}</li>
               ))}
             </ul>
           </div>
